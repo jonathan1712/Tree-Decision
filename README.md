@@ -38,22 +38,26 @@ Instalación y configuración de bibliotecas necesarias
 * Nota: al igual que con la instalación de Jupyter Notebook se necesita hacer uso del asistente de instalación pip, por lo cual se requiere que acceder a la carpeta donde este está instalado o en caso de que se encuentre como una variable de entorno nada más ejecutar los comandos sin moverse entre directorios.
 
 ----------------------------------------
-Instalación de Graphviz en windows
+Instalación de Graphviz en Windows
 ----------------------------------------
 
-* pip install numpy
+* pip install graphviz
+* Ir a https://graphviz.gitlab.io/_pages/Download/Download_windows.html y descargar graphviz-2.38.msi, e instalarlo como cualquier programa. No modificar el directorio de instalación que se da por defecto.
 
 ----------------------------------------
 Instalación de Graphiz en Linux (Ubuntu)
 ----------------------------------------
 
-* pip install scipy
+* pip install graphviz
+* sudo apt-get install graphviz
 
 ----------------------------------------
 Instalación de Graphiz en Mac
 ----------------------------------------
 
-* pip install matplotlib
+* pip install graphviz
+* /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" este link instalara un asistente de instalación llamada Homebrew.
+* Después de la instalación de Homebrew, ejecutar: brew install graphviz
 
 
 De esta forma Jupyter y sus librerías están listas para ser utilizadas.
@@ -62,4 +66,4 @@ De esta forma Jupyter y sus librerías están listas para ser utilizadas.
 GitHub
 -------------
 
-* https://github.com/jonathan1712/Stochastic-Gradient-Descent.git
+* https://github.com/jonathan1712/Tree-Decision.git
