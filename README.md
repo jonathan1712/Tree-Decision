@@ -55,10 +55,29 @@ Instalación de Graphiz en Linux (Ubuntu)
 Instalación de Graphiz en Mac
 ----------------------------------------
 
-* pip install graphviz
-* /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" este link instalara un asistente de instalación llamada Homebrew.
-* Después de la instalación de Homebrew, ejecutar: brew install graphviz
+* /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" este link instalara un asistente de instalación llamada Homebrew. Después de la instalación de Homebrew, ejecutar:
+* brew install graphviz
+* pip install python-graphviz
 
+----------------------------------------
+Instalación de Numpy
+----------------------------------------
+* pip install numpy
+
+----------------------------------------
+Instalción de Scipy
+----------------------------------------
+* pip install scipy
+
+----------------------------------------
+Instalación de Pandas
+----------------------------------------
+* pip install pandas
+
+----------------------------------------
+Instalación de Scikit-learn
+----------------------------------------
+* pip install -U scikit-learn
 
 De esta forma Jupyter y sus librerías están listas para ser utilizadas.
 
